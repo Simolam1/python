@@ -14,7 +14,7 @@ try:
 except ValueError:
     print("Error Valid input.")
     sys.exit(1)
-    
+
 
 
 
@@ -25,3 +25,4 @@ except ZeroDivisionError:
     sys.exit(1)
 
 print(f"{u} / {v} = {res}")
+
